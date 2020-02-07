@@ -4,10 +4,10 @@
 %table#movies.table.table-striped.col-md-12
   %thead
     %tr
-      %th Movie Title test
-      %th Rating
-      %th Release Date
-      %th More Info
+      %th.hilight %a{ :href="", :title="Order by Movie Title" } Movie Title test
+      %th %a{ :href="", :title="Order by Movie Title" } Rating
+      %th %a{ :href="", :title="Order by Movie Title" } Release Date
+      %th %a{ :href="", :title="Order by Movie Title" } More Info
   %tbody
     - @movies.each do |movie|
       %tr
